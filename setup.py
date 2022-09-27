@@ -43,4 +43,4 @@ setup(name='pyqpbo',
                     include_dirs=[qpbo_directory, np.get_include()],
                     library_dirs=[qpbo_directory],
                     extra_compile_args=["-fpermissive"],
-                    extra_link_args=['-L/usr/lib/x86_64-linux-gnu/']))
+                    extra_link_args=['-L/usr/lib/x86_64-linux-gnu/'])
